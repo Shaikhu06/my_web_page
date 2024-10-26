@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../assests/fonts/OpenSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../assests/fonts/OpenSans-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'OpenSans', Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-image: url('../images/mikael-kristenson-3aVlWP-7bg8-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  h1 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .table {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }  
